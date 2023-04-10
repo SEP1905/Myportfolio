@@ -1,0 +1,141 @@
+:root {
+    --primary-color: #1b1c1e;
+    --secondary-color: #f5f2fe;
+
+}
+
+
+body {
+    background-color: var(--primary-color);
+    max-width: 1900px;
+    border: 200px;
+    padding: 10px;
+    overflow-x:hidden;
+       
+}
+
+
+h1,
+h4 {
+    color: var(--secondary-color);
+    position: relative;
+    bottom: -370px;
+    left: 40px;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+h4 {
+    font-weight: 400;
+}
+
+.navigation-links {
+    display: flex;
+    margin-top: 30px;
+    justify-content:left;
+    position: relative;
+    bottom: -370px;
+    left: 40px;
+
+}
+.contact-link {
+    background:linear-gradient(90deg, rgba(248, 118, 97, 1) 0%, rgba(160, 143, 249, 1) 35%, rgba(247, 80, 106, 1) 100%);
+    box-shadow:black;
+    color: white; 
+    text-decoration:none;
+    padding: 15px;
+    border-radius: 12px;
+}
+svg {
+    position: relative;
+    top: -100px;
+    right: -600px;
+    width: 600px;
+
+}
+
+img{
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+}
+
+h2{
+    color: white;
+    font-size:large;
+    text-align: center;
+    
+
+}
+
+#container{
+border: 1px;
+width: 300px;
+height: 100px;
+padding: 10px;
+margin: 5px;
+position: sticky;
+}
+
+#myCarousel{
+    height: 300px;
+    width: 65%;
+    padding: 0px;
+    
+}
+
+
+#myCarousel.carousel.slide{
+        width: 500px;
+        margin: auto;
+        padding: 0%;
+        border: 10px;
+}
+
+
+#carousel-inner{
+position: relative;
+    top: 40px;
+    left: 400px;
+}
+
+ol{
+    position: static;
+top: 520px; right: 120px;
+}
+#ab{
+    text-align: center;
+    top: 5px;
+    left: 5px;
+    padding: 10px;
+}
+p{
+    color: white;
+}
+
+h3{color:white;
+   text-align: center;}
+
+.about-paragraphs {
+    display: flex;
+    margin: 30px 0;
+}
+
+.about-paragraphs p {
+    margin: 10px;
+}
+
+.email-link {
+    display: flex;
+    justify-content: center;
+    color: var(--secondary-color);
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}
