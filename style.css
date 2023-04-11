@@ -9,7 +9,7 @@ body {
     background-color: var(--primary-color);
     max-width: 1900px;
     border: 200px;
-    padding: 10px;
+    padding: 0px;
     overflow-x:hidden;
        
 }
@@ -19,13 +19,11 @@ h1,
 h4 {
     color: var(--secondary-color);
     position: relative;
-    bottom: -370px;
+    bottom: -320px;
     left: 40px;
 }
 
-h1 {
-    font-family: sans-serif;
-}
+
 
 h4 {
     font-weight: 400;
@@ -36,7 +34,7 @@ h4 {
     margin-top: 30px;
     justify-content:left;
     position: relative;
-    bottom: -370px;
+    bottom: -300px;
     left: 40px;
 
 }
@@ -47,10 +45,11 @@ h4 {
     text-decoration:none;
     padding: 15px;
     border-radius: 12px;
+
 }
 svg {
     position: relative;
-    top: -100px;
+    top: -200px;
     right: -600px;
     width: 600px;
 
@@ -64,9 +63,9 @@ img{
 }
 
 h2{
-    color: white;
-    font-size:large;
+    font-size:xx-large;
     text-align: center;
+    color: white;
     
 
 }
@@ -111,9 +110,13 @@ top: 520px; right: 120px;
     top: 5px;
     left: 5px;
     padding: 10px;
+    font-family: 'work sans',sans-serif;
 }
+
 p{
     color: white;
+    font-family: 'lato',sans-serif;
+    padding: 10px;
 }
 
 h3{color:white;
@@ -129,13 +132,50 @@ h3{color:white;
 }
 
 .email-link {
-    display: flex;
-    justify-content: center;
-    color: var(--secondary-color);
+   
     font-size: 28px;
     text-decoration: none;
 }
 
 .email-link:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: orange;
+}
+#contact-header{
+    text-align: center;
+    top: 10px;
+    left: 0px;
+    font-family:' Tahoma', Geneva, Verdana, sans-serif;
+}
+#contact{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: orange;
+}
+#platform-link{
+    text-align: center;
+    
+}
+#wave{
+    position: absolute;
+        bottom: 0;
+        left: 0;
+        top: 330px;
+        width: 100%;
+        
+}
+
+#waveab{
+    position: absolute;
+        bottom: 0;
+        right: 0px;
+        top: 500px;
+        width: 100%;
+        height: 290px;
+
 }
